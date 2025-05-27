@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title> Fadi Sports Gym </title>
+    <title>اتصل بنا</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            max-width: 600px;
+            margin: 80px auto;
+            border-radius: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ff9900;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border-radius: 10px;
+            border: none;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 120px;
+        }
+
+        button {
+      padding: 10px;
+      width: 250px;
+      margin: 10px;
+      font-size: 15px;
+      background-color: #3700ff;
+      color: rgb(255, 252, 252);
+      border-radius: 8px;
+      border: none;
+    }
+        button:hover {
+      background-color: #ff0a64;
+    }
+
+    button:active {
+      background-color: #3700ff;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h2>اتصل بنا</h2>
+        <form action="#" method="post">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">عنوان الرسالة:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+
+    <a href="index.html"> <button onclick="document.location=''"> الصفحة الرئيسية </button></a>
+    <a href="برامج التمارين.html"> <button onclick="document.location=''"> برامج التمارين </button></a>
+    <a href="النصائح الغذائية.html"> <button onclick="document.location=''"> النصائح الغذائية </button></a>
+    <a href="أهداف اللياقة.html"> <button onclick="document.location=''"> أهداف اللياقة </button></a>
+    <a href="نصائح عامة.html"> <button onclick="document.location=''"> نصائح عامة </button></a>    
+    
+</body>
+</html>
